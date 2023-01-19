@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ONLINE TUTORS </title>
+  <div style="text-align: center;"">
+  <nav>
+    <a href="./new-file.html">HOME</a>
+    <a href="./index.html">MAIN PAGE </a>
+    <a href="./about.html">GET A QUOTE</a>
+     <a href="./signup.html">SIGN UP </a>
+    <a href="./login.html">LOGIN</a>
+  </nav>
+  </div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  
+  height: 50%; 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); }
+.img2 { background-image: url("https://images.unsplash.com/photo-1616587894289-86480e533129?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); }
+.img3 { background-image: url("https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); }
+.img4 { background-image: url("https://images.unsplash.com/photo-1503945438517-f65904a52ce6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); }
+.img5 { background-image: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"); }
+.img6 { background-image: url("https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"); }
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: White;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+<div class="bg-text">ONLINE TUTORS</div>
+</head>
+</body>
+</html>
